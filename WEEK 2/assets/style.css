@@ -1,0 +1,98 @@
+/* h1,
+h2,
+h3,
+p{
+    color:red;
+    font-size: 69px;
+    font-family: fantasy;
+    font-style: italic;
+    font-weight: bold;
+    font-stretch: narrower;
+} */
+
+h2::after {
+    content: "TOP";
+    background-color: orange;
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+}
+h3{
+    text-align: left;
+    color: royalblue;
+}
+h4{
+    text-align: center;
+}
+/*p{
+    text-align: center;
+    color: seagreen;
+}*/
+
+/* #header-2{
+    color: salmon;
+}
+
+.header-3{
+    color: springgreen;
+} */
+
+.hd{
+    color: skyblue;
+}
+/* li:nth-child(odd){
+    color:green;
+} */
+a{
+    text-decoration: none;
+    margin-left: 10px;
+}
+a:hover{
+    text-decoration: none;
+    background-color: yellow;
+    font-size: 20px;
+}
+a:active{
+    background-color: blue;
+}
+aside{
+    border-top: 5px solid #1098ad;
+    border-bottom: 5px solid #1098ad;
+    width: 400px;
+}
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+    border-color: rgb(79, 154, 189);
+}
+.c{
+    background-color: rgb(248, 246, 248); 
+}
+aside{
+    background-color: rgb(248, 246, 248);
+}
+footer{
+    text-align: center;
+    margin-bottom: 100px;
+}
+/* button{
+    margin-left: 1000px;
+} */
+button{
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+}
+.container{
+    max-width: 500px;
+    margin: auto;
+    font-family: sans-serif;
+}
+p:first-line{
+    color:red;
+}
